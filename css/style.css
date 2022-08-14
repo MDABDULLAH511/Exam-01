@@ -1,0 +1,507 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* .header_hero_part css */
+
+body {
+    background-color: #f9f9f9;
+}
+
+.header_hero_part {
+    background-image: url(../images/banner-shap.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 65%;
+}
+
+.navbar-expand-lg .navbar-nav {
+    align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #ffffff;
+}
+
+.phone_number h6 {
+    color: #ffffff;
+    border: 1px solid #fff;
+    padding: 10px 20px 10px 40px;
+    border-radius: 8px;
+    position: relative;
+}
+
+
+.call_icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14px;
+}
+
+/* hero_part css */
+.hero_part {
+    align-items: center;
+    min-height: 85vh;
+}
+
+
+.hero_text h1 {
+    color: #242424;
+    font-weight: 700;
+}
+
+.hero_text h1 span {
+    color: #0961b1;
+}
+
+.hero_text p {
+    color: #242424;
+    margin: 40px 0;
+    font-weight: 600;
+}
+
+.hero_text button {
+    padding: 15px 45px 15px 25px;
+    background-color: #0c63b2;
+    border: 1px solid #0c63b2;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+}
+
+.btn_icon {
+    position: absolute;
+    right: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* livecall_part css */
+.livecall_part {
+    background-image: url(../images/live-call-bg.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.livecall_img {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.livecall_img img {
+    width: 80%;
+}
+
+.livecall_tex {
+    margin-top: 140px;
+    text-align: right;
+}
+
+.livecall_tex h1 {
+    color: #242424;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.livecall_tex h1 span {
+    color: #0961b1;
+}
+
+.livecall_tex p {
+    color: #242424;
+    font-weight: 600;
+}
+
+/* livecall_item */
+.livecall_item {
+
+    background: #ffffff;
+    border-radius: 20px;
+    height: 340px;
+    padding: 0 85px;
+    margin-bottom: 20px;
+}
+
+.livecall_item p {
+    color: #242424;
+}
+
+.livecall_item p span {
+    font-weight: 600;
+}
+
+.livecall_item_header {
+    display: flex;
+    align-items: center;
+    padding: 30px 0 45px 0;
+}
+
+.livecall_item_header h5 {
+    margin-left: 50px;
+    font-weight: 700;
+    color: #242424;
+}
+
+/* getdtarted_part css */
+.getdtarted_part {
+    background-image: url(../images/getdtarted_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.getdtarted_part h1 {
+
+    color: #242424;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.getdtarted_part h1 span {
+    color: #0961b1;
+}
+
+.getdtarted_text {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px 50px 40px 65px;
+    position: relative;
+    width: 90%;
+}
+
+.getdtarted_text h5 {
+    color: #242424;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.getdtarted_icon {
+    position: absolute;
+    left: 28px;
+    color: #409830;
+    font-size: 20px;
+}
+
+.getdtarted_01 {
+    margin-top: 40px;
+    box-shadow: 0px 2px 5px 0px #f3f3f3;
+}
+
+.getdtarted_02 {
+    background-color: #f3f3f3;
+    margin-top: 20px;
+}
+
+.getdtarted_02 .getdtarted_icon {
+    color: red;
+}
+
+
+.getdtarted_btn {
+    text-align: center;
+}
+
+/* Process_part CSS */
+.process_part {
+    padding: 60px 0 0 0;
+}
+
+.process_part h1 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+.process_item {
+    text-align: center;
+    background-color: #f3f3f3;
+    border-radius: 100px 100px 20px 20px;
+    padding: 35px;
+    height: 400px;
+    margin: 0 20px;
+    position: relative;
+    color: #242424;
+}
+
+.process_item h5 {
+    text-align: center;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.process_number {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -40px;
+    padding: 14px 15px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.process_number h4 {
+    padding: 11px 13px;
+    border-radius: 100%;
+    background: #0f65b3;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.number0203 {
+    padding: 14px 14px;
+}
+
+.number0203 h4 {
+    padding: 11px 11px;
+}
+
+
+
+/* Serve Part CSS */
+.serve_part {
+    background-image: url(../images/serve-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 80px 0 100px 0;
+}
+
+.serve_part h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.serve_part h1 span {
+    color: #0f65b3;
+}
+
+.serve_item {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    height: 345px;
+    box-shadow: 0px 0px 3px -2px;
+}
+
+.serve_item img {
+    width: 33%;
+}
+
+.serve_item h5 {
+    font-weight: 700;
+    margin: 25px 0;
+    color: #242424;
+}
+
+.serve_item ul {
+    list-style: none;
+}
+
+.serve_item ul li {
+    display: flex;
+    align-items: center;
+}
+
+.serve_item ul li i {
+    color: #0f65b3;
+    margin-right: 10px;
+}
+
+.serve_part_btn button {
+    text-align: center;
+}
+
+.serve_btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* frequently_part css */
+.frequently_part {
+
+    padding: 0px 0 60px 0;
+}
+
+.frequently_part h1 {
+    text-align: center;
+    color: #242424;
+    font-weight: 700;
+}
+
+.frequently_part h1 span {
+    color: #0f65b3;
+}
+
+/* --------------------accordion-------------------- */
+.accordion {
+    margin-top: 50px;
+}
+
+.accordion-item {
+    border-radius: 20px !important;
+    margin-bottom: 20px;
+}
+
+.accordion-button {
+    border-radius: 20px !important;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border: 2px solid #ffffff;
+
+}
+.accordion-button:not(.collapsed) {
+    color: #242424;
+    background-color: #efefef;
+    border: 2px solid #0f65b3;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button h6 {
+    font-weight: 800;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    content: "";
+    background-image: url(../images/plus\ .png);
+    background-repeat: no-repeat;
+    background-size: 42px;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/minus.png);
+    transform: rotate(-180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* quality_part css */
+.quality_part {
+    background-image: url(../images/quality-part-bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    padding: 50px 0 30px 0;
+}
+
+.quality_content p {
+    margin: 40px 0 25px;
+}
+
+.contact_info ul {
+    list-style: none;
+    margin: 50px 0;
+}
+
+.contact_info ul li {
+    display: flex;
+    color: #0c63b2;
+    margin-bottom: 10px;
+}
+
+.contact_info ul li p {
+    margin: 0;
+    color: #414141;
+    font-weight: 400;
+}
+
+.contact_info_icon {
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.contact_info ul li a {
+    text-decoration: none;
+    color: #414141;
+}
+
+/* footer_part CSS */
+
+.footer_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer_logo img {
+    width: 27%;
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer_content p {
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.footer_content p span {
+    font-weight: 600;
+}
+
+
+/* .privecy_part css */
+.privecy_part {
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.privecy p {
+    color: #ffffff;
+}
